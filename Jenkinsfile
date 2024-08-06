@@ -1,4 +1,4 @@
-pipeline{
+ pipeline{
     agent { label "agent01" }
     stages{
         stage("checkout the code") {
