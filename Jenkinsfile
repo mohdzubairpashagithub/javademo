@@ -1,5 +1,5 @@
 pipeline {
-         agent { label "agent01" } 
+         agent { label "Jenkins_Agent_01" } 
 		 stages{ 
 		 
 		         stage("Build package"){
